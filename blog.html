@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & Portfolio | Creative Studio - Latest Projects & Insights</title>
+    <meta name="description" content="Explore our latest projects, case studies, and insights into 3D web development and interactive design.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- 3D Canvas Background -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">Creative<span style="color: var(--accent-color);">Studio</span></a>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="#blog" class="active">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./careers.html">Careers</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="blog" class="hero" style="min-height: 70vh;">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title animate-text">Projects & <span style="color: var(--accent-color);">Insights</span></h1>
+                    <p class="hero-subtitle">Showcasing our latest work and sharing the knowledge that drives digital innovation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="featured-projects" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Featured <span style="color: var(--accent-color);">Projects</span></h2>
+                    <p>Our most impactful work that transformed businesses and redefined digital experiences.</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card fade-in">
+                        <div style="height: 250px; background: linear-gradient(135deg, var(--accent-color), #ff6666); border-radius: 15px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.5rem;">
+                            E-Commerce Revolution
+                        </div>
+                        <h3>TechCorp 3D Shopping Experience</h3>
+                        <p>Revolutionized online shopping with interactive 3D product visualization. Users can rotate, zoom, and interact with products in real-time, leading to a 145% increase in conversions.</p>
+                        <div style="margin: 1.5rem 0;">
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Three.js</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">WebGL</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">React</span>
+                        </div>
+                        <p><strong>Results:</strong> 145% increase in conversions, 67% reduction in returns, 234% increase in user engagement</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 250px; background: linear-gradient(135deg, #4444ff, #6666ff); border-radius: 15px; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.5rem;">
+                            Data Visualization
+                        </div>
+                        <h3>DigitalPlus Analytics Dashboard</h3>
+                        <p>Real-time data visualization platform with interactive 3D charts and smooth animations. Transformed complex data into intuitive, actionable insights.</p>
+                        <div style="margin: 1.5rem 0;">
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">D3.js</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Node.js</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">MongoDB</span>
+                        </div>
+                        <p><strong>Results:</strong> 78% increase in user engagement, 45% faster decision-making, 156% improvement in data comprehension</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <section class="case-studies" style="padding: 8rem 0;">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Case <span style="color: var(--accent-color);">Studies</span></h2>
+                    <p>Deep dives into projects that redefined what's possible in digital experiences.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="card fade-in">
+                        <div style="height: 200px; background: linear-gradient(135deg, #44ff44, #66ff66); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #333; font-weight: bold;">
+                            FinTech Innovation
+                        </div>
+                        <h3>CryptoFlow Trading Platform</h3>
+                        <p>Built a real-time cryptocurrency trading platform with 3D market visualization and advanced analytics.</p>
+                        <p><strong>Impact:</strong> $2M+ in trading volume within first month</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 200px; background: linear-gradient(135deg, #ffff44, #ffff66); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #333; font-weight: bold;">
+                            Healthcare Tech
+                        </div>
+                        <h3>MedViz 3D Anatomy</h3>
+                        <p>Interactive 3D medical visualization tool for medical education and patient consultation.</p>
+                        <p><strong>Impact:</strong> Adopted by 50+ medical schools globally</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 200px; background: linear-gradient(135deg, #ff44ff, #ff66ff); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Gaming Platform
+                        </div>
+                        <h3>GameHub Social</h3>
+                        <p>Social gaming platform with real-time multiplayer 3D experiences and community features.</p>
+                        <p><strong>Impact:</strong> 500K+ active users in 6 months</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 200px; background: linear-gradient(135deg, #44ffff, #66ffff); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #333; font-weight: bold;">
+                            AR Experience
+                        </div>
+                        <h3>RetailVR Try-On</h3>
+                        <p>Augmented reality try-on experience for fashion e-commerce with realistic 3D rendering.</p>
+                        <p><strong>Impact:</strong> 89% reduction in returns, 234% increase in engagement</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 200px; background: linear-gradient(135deg, #ff8844, #ffaa66); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Real Estate Tech
+                        </div>
+                        <h3>PropertyVR Tours</h3>
+                        <p>Virtual reality property tours with interactive hotspots and real-time customization options.</p>
+                        <p><strong>Impact:</strong> 67% faster sales cycles, 145% more qualified leads</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 200px; background: linear-gradient(135deg, #8844ff, #aa66ff); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Education Platform
+                        </div>
+                        <h3>EduSpace 3D Learning</h3>
+                        <p>Interactive 3D learning environments for STEM education with gamification elements.</p>
+                        <p><strong>Impact:</strong> 78% improvement in learning retention rates</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Articles -->
+        <section class="blog-articles" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Latest <span style="color: var(--accent-color);">Insights</span></h2>
+                    <p>Thoughts, tutorials, and insights from our team of digital innovators.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="card fade-in">
+                        <div style="height: 150px; background: var(--accent-color); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Tutorial
+                        </div>
+                        <h3>Building Interactive 3D Scenes with Three.js</h3>
+                        <p>A comprehensive guide to creating immersive 3D experiences that perform across all devices.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Published: December 15, 2024</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 150px; background: #4444ff; border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Industry Insight
+                        </div>
+                        <h3>The Future of Web Development: WebGL and Beyond</h3>
+                        <p>Exploring emerging technologies that will shape the next generation of web experiences.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Published: December 10, 2024</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 150px; background: #44ff44; border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #333; font-weight: bold;">
+                            Case Study
+                        </div>
+                        <h3>How We Increased E-commerce Conversions by 145%</h3>
+                        <p>Breaking down the strategy and implementation behind our most successful project.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Published: December 5, 2024</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 150px; background: #ffff44; border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #333; font-weight: bold;">
+                            Technical Deep Dive
+                        </div>
+                        <h3>Optimizing WebGL Performance for Mobile Devices</h3>
+                        <p>Advanced techniques for ensuring smooth 3D experiences across all device types.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Published: November 28, 2024</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 150px; background: #ff44ff; border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                            Design Process
+                        </div>
+                        <h3>From Concept to Launch: Our Design Methodology</h3>
+                        <p>An inside look at how we transform ideas into award-winning digital experiences.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Published: November 20, 2024</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="height: 150px; background: #44ffff; border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center; color: #333; font-weight: bold;">
+                            Industry Trends
+                        </div>
+                        <h3>2025 Web Design Trends: What's Coming Next</h3>
+                        <p>Predictions and preparations for the future of web design and development.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Published: November 15, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" style="padding: 8rem 0;">
+            <div class="container">
+                <div style="text-align: center;">
+                    <h2 class="fade-in">Ready to Be Our Next <span style="color: var(--accent-color);">Success Story?</span></h2>
+                    <p class="fade-in" style="font-size: 1.3rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Let's create something that will be featured in our next case study.</p>
+                    <div class="fade-in">
+                        <a href="./contact.html" class="cta-button" style="margin-right: 1rem;">Start Your Project</a>
+                        <a href="./services.html" class="btn" style="background: transparent; border: 2px solid var(--accent-color);">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Creative<span style="color: var(--accent-color);">Studio</span></h3>
+                    <p>Creating digital experiences that dominate. We turn vision into obsession and clicks into cash.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">📧</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">💼</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">🐦</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">📸</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="./services.html">Web Development</a><br>
+                    <a href="./services.html">UI/UX Design</a><br>
+                    <a href="./services.html">App Development</a><br>
+                    <a href="./services.html">3D Experiences</a><br>
+                    <a href="./services.html">Consulting</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="./about.html">About Us</a><br>
+                    <a href="./careers.html">Careers</a><br>
+                    <a href="./blog.html">Blog</a><br>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📧 hello@creativestudio.com</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>📍 New York, NY, USA</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Creative Studio. All rights reserved. Built with passion and 3D magic.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/simple-ripple.js"></script>
+</body>
+</html>

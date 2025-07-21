@@ -1,0 +1,35 @@
+{
+  "name": "3d-showcase-website",
+  "version": "1.0.0",
+  "description": "Interactive 3D showcase website with WebGL effects and animations",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "http-server dist -p 8080",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "http-server": "^14.1.1",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.12.4",
+    "lenis": "^1.0.42",
+    "three": "^0.160.0"
+  },
+  "keywords": [
+    "3d",
+    "webgl",
+    "three.js",
+    "gsap",
+    "interactive",
+    "portfolio",
+    "showcase"
+  ],
+  "author": "Ahmed Mohamed Sabri",
+  "license": "MIT"
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Creative Studio - 3D Web Development & Design</title>
+    <meta name="description" content="Cutting-edge 3D web development, interactive design, and digital experiences that dominate the competition.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- 3D Canvas Background -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">Creative<span style="color: var(--accent-color);">Studio</span></a>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#services" class="active">Services</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./careers.html">Careers</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="services" class="hero" style="min-height: 70vh;">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title animate-text">Services That <span style="color: var(--accent-color);">Dominate</span></h1>
+                    <p class="hero-subtitle">We don't just build websites—we create digital machines that convert, engage, and obliterate the competition.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Services -->
+        <section class="main-services" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="grid grid-3">
+                    <div class="card fade-in">
+                        <div class="service-icon">🌐</div>
+                        <h3>3D Web Development</h3>
+                        <p>Interactive websites that make jaws drop and conversions soar. We build with Three.js, WebGL, and cutting-edge tech.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• Interactive 3D Experiences</li>
+                            <li>• WebGL & Three.js Development</li>
+                            <li>• Real-time Animations</li>
+                            <li>• Performance Optimization</li>
+                            <li>• Mobile-First Design</li>
+                        </ul>
+                        <div style="margin-top: 2rem;">
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Three.js</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">WebGL</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">GSAP</span>
+                        </div>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div class="service-icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Design that doesn't just look good—it performs. User experiences that turn visitors into customers and skeptics into believers.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• User Interface Design</li>
+                            <li>• User Experience Strategy</li>
+                            <li>• Prototyping & Wireframing</li>
+                            <li>• Design Systems</li>
+                            <li>• Conversion Optimization</li>
+                        </ul>
+                        <div style="margin-top: 2rem;">
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Figma</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Adobe CC</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Sketch</span>
+                        </div>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div class="service-icon">📱</div>
+                        <h3>App Development</h3>
+                        <p>Mobile and web applications that push boundaries. From concept to deployment, we build apps that users can't stop using.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• Native Mobile Apps</li>
+                            <li>• Progressive Web Apps</li>
+                            <li>• Cross-Platform Solutions</li>
+                            <li>• API Development</li>
+                            <li>• App Store Optimization</li>
+                        </ul>
+                        <div style="margin-top: 2rem;">
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">React Native</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem; margin-right: 0.5rem;">Flutter</span>
+                            <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.5rem; border-radius: 15px; font-size: 0.8rem;">Swift</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialized Services -->
+        <section class="specialized-services" style="padding: 8rem 0;">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Specialized <span style="color: var(--accent-color);">Expertise</span></h2>
+                    <p>Advanced solutions for complex challenges. When standard isn't enough.</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card slide-in-left">
+                        <div class="service-icon">🚀</div>
+                        <h3>Performance Optimization</h3>
+                        <p>Make your site faster than lightning. We optimize for speed, SEO, and user experience that converts.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• Core Web Vitals Optimization</li>
+                            <li>• Bundle Size Reduction</li>
+                            <li>• CDN Implementation</li>
+                            <li>• Database Optimization</li>
+                            <li>• Caching Strategies</li>
+                        </ul>
+                    </div>
+
+                    <div class="card slide-in-right">
+                        <div class="service-icon">🔧</div>
+                        <h3>Custom Development</h3>
+                        <p>Bespoke solutions tailored to your unique needs. No templates, no shortcuts—just pure custom code.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• Custom CMS Development</li>
+                            <li>• E-commerce Solutions</li>
+                            <li>• Integration Services</li>
+                            <li>• Legacy System Modernization</li>
+                            <li>• Scalable Architecture</li>
+                        </ul>
+                    </div>
+
+                    <div class="card slide-in-left">
+                        <div class="service-icon">🎬</div>
+                        <h3>Motion & Animation</h3>
+                        <p>Bring your brand to life with animations that captivate and engage. Motion that tells your story.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• 3D Animation</li>
+                            <li>• Motion Graphics</li>
+                            <li>• Micro-interactions</li>
+                            <li>• Video Production</li>
+                            <li>• Interactive Storytelling</li>
+                        </ul>
+                    </div>
+
+                    <div class="card slide-in-right">
+                        <div class="service-icon">🧠</div>
+                        <h3>AI Integration</h3>
+                        <p>Harness the power of artificial intelligence. Smart solutions that learn, adapt, and improve over time.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                            <li>• Chatbot Development</li>
+                            <li>• Recommendation Engines</li>
+                            <li>• Computer Vision</li>
+                            <li>• Natural Language Processing</li>
+                            <li>• Predictive Analytics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process-section" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Our <span style="color: var(--accent-color);">Process</span></h2>
+                    <p>How we turn your vision into digital domination.</p>
+                </div>
+
+                <div class="grid grid-4">
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; font-size: 2rem;">🔍</div>
+                        <h3>Discovery</h3>
+                        <p>We dig deep into your business, goals, and challenges. Understanding is the foundation of excellence.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; font-size: 2rem;">🎨</div>
+                        <h3>Design</h3>
+                        <p>Wireframes, prototypes, and pixel-perfect designs that make your vision tangible and testable.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; font-size: 2rem;">⚡</div>
+                        <h3>Develop</h3>
+                        <p>Clean, efficient code that brings designs to life. Performance and functionality working in perfect harmony.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; font-size: 2rem;">🚀</div>
+                        <h3>Launch</h3>
+                        <p>Smooth deployment and ongoing optimization. Because launch day is just the beginning of success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-section" style="padding: 8rem 0;">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Investment <span style="color: var(--accent-color);">Options</span></h2>
+                    <p>Transparent pricing for transformative results. No hidden fees, no surprises.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <div class="card fade-in">
+                        <h3>Starter Package</h3>
+                        <div style="font-size: 3rem; font-weight: bold; color: var(--accent-color); margin: 1rem 0;">$5K</div>
+                        <p style="margin-bottom: 2rem;">Perfect for startups and small businesses ready to make an impact.</p>
+                        <ul style="list-style: none; padding: 0; margin: 2rem 0;">
+                            <li>✓ Responsive Website Design</li>
+                            <li>✓ Basic 3D Elements</li>
+                            <li>✓ Mobile Optimization</li>
+                            <li>✓ SEO Foundation</li>
+                            <li>✓ 3 Months Support</li>
+                        </ul>
+                        <a href="./contact.html" class="btn" style="width: 100%; text-align: center; display: block;">Get Started</a>
+                    </div>
+
+                    <div class="card fade-in" style="border: 2px solid var(--accent-color); position: relative;">
+                        <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--accent-color); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: bold;">MOST POPULAR</div>
+                        <h3>Professional Package</h3>
+                        <div style="font-size: 3rem; font-weight: bold; color: var(--accent-color); margin: 1rem 0;">$15K</div>
+                        <p style="margin-bottom: 2rem;">For businesses serious about digital domination and conversion optimization.</p>
+                        <ul style="list-style: none; padding: 0; margin: 2rem 0;">
+                            <li>✓ Advanced 3D Interactive Site</li>
+                            <li>✓ Custom Animations</li>
+                            <li>✓ Performance Optimization</li>
+                            <li>✓ CMS Integration</li>
+                            <li>✓ Analytics Setup</li>
+                            <li>✓ 6 Months Support</li>
+                        </ul>
+                        <a href="./contact.html" class="cta-button" style="width: 100%; text-align: center; display: block;">Choose Pro</a>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h3>Enterprise Package</h3>
+                        <div style="font-size: 3rem; font-weight: bold; color: var(--accent-color); margin: 1rem 0;">Custom</div>
+                        <p style="margin-bottom: 2rem;">Fully custom solutions for enterprises that demand excellence.</p>
+                        <ul style="list-style: none; padding: 0; margin: 2rem 0;">
+                            <li>✓ Fully Custom Development</li>
+                            <li>✓ Advanced 3D Experiences</li>
+                            <li>✓ Multi-platform Integration</li>
+                            <li>✓ Dedicated Team</li>
+                            <li>✓ Priority Support</li>
+                            <li>✓ 12 Months Support</li>
+                        </ul>
+                        <a href="./contact.html" class="btn" style="width: 100%; text-align: center; display: block;">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div style="text-align: center;">
+                    <h2 class="fade-in">Ready to <span style="color: var(--accent-color);">Dominate</span> Your Industry?</h2>
+                    <p class="fade-in" style="font-size: 1.3rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Let's build something that makes your competition wish they never existed.</p>
+                    <div class="fade-in">
+                        <a href="./contact.html" class="cta-button" style="margin-right: 1rem;">Start Your Project</a>
+                        <a href="./about.html" class="btn" style="background: transparent; border: 2px solid var(--accent-color);">Learn About Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Creative<span style="color: var(--accent-color);">Studio</span></h3>
+                    <p>Creating digital experiences that dominate. We turn vision into obsession and clicks into cash.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">📧</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">💼</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">🐦</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">📸</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="./services.html">Web Development</a><br>
+                    <a href="./services.html">UI/UX Design</a><br>
+                    <a href="./services.html">App Development</a><br>
+                    <a href="./services.html">3D Experiences</a><br>
+                    <a href="./services.html">Consulting</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="./about.html">About Us</a><br>
+                    <a href="./careers.html">Careers</a><br>
+                    <a href="./blog.html">Blog</a><br>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📧 hello@creativestudio.com</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>📍 New York, NY, USA</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Creative Studio. All rights reserved. Built with passion and 3D magic.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/simple-ripple.js"></script>
+</body>
+</html>

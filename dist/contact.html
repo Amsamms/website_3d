@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Creative Studio - Let's Build Something Amazing</title>
+    <meta name="description" content="Ready to transform your digital presence? Get in touch with our team of 3D web development experts.">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+  <script type="module" crossorigin src="/assets/simple-ripple-CzhiN6Dm.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/simple-ripple-D3nXqpu3.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- 3D Canvas Background -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="./index.html" class="logo">Creative<span style="color: var(--accent-color);">Studio</span></a>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="#contact" class="active">Contact</a></li>
+                <li><a href="./careers.html">Careers</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="contact" class="hero" style="min-height: 70vh;">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title animate-text">Let's Build Something <span style="color: var(--accent-color);">Extraordinary</span></h1>
+                    <p class="hero-subtitle">Ready to dominate your industry? Let's turn your vision into digital reality.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="grid grid-2">
+                    <div class="slide-in-left">
+                        <h2>Tell Us About Your <span style="color: var(--accent-color);">Project</span></h2>
+                        <p>Whether you're a startup with a wild idea or an enterprise ready to revolutionize your industry, we're here to make it happen.</p>
+                        
+                        <div style="margin: 3rem 0;">
+                            <div style="margin-bottom: 2rem;">
+                                <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">📧 Email</h3>
+                                <p>hello@creativestudio.com</p>
+                            </div>
+                            <div style="margin-bottom: 2rem;">
+                                <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">📞 Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div style="margin-bottom: 2rem;">
+                                <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">📍 Location</h3>
+                                <p>New York, NY, USA</p>
+                            </div>
+                            <div style="margin-bottom: 2rem;">
+                                <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">⏰ Response Time</h3>
+                                <p>Within 24 hours for priority clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide-in-right">
+                        <div class="card">
+                            <form id="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" id="company" name="company">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="project-type">Project Type *</label>
+                                    <select id="project-type" name="project-type" required>
+                                        <option value="">Select Project Type</option>
+                                        <option value="web-development">3D Web Development</option>
+                                        <option value="ui-ux-design">UI/UX Design</option>
+                                        <option value="app-development">App Development</option>
+                                        <option value="3d-experience">3D Interactive Experience</option>
+                                        <option value="consulting">Consulting</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="budget">Budget Range</label>
+                                    <select id="budget" name="budget">
+                                        <option value="">Select Budget Range</option>
+                                        <option value="5k-15k">$5K - $15K</option>
+                                        <option value="15k-50k">$15K - $50K</option>
+                                        <option value="50k-100k">$50K - $100K</option>
+                                        <option value="100k+">$100K+</option>
+                                        <option value="discuss">Let's Discuss</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="timeline">Timeline</label>
+                                    <select id="timeline" name="timeline">
+                                        <option value="">Select Timeline</option>
+                                        <option value="asap">ASAP</option>
+                                        <option value="1-3-months">1-3 Months</option>
+                                        <option value="3-6-months">3-6 Months</option>
+                                        <option value="6-12-months">6-12 Months</option>
+                                        <option value="flexible">Flexible</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Project Details *</label>
+                                    <textarea id="message" name="message" rows="5" placeholder="Tell us about your vision, goals, and what you want to achieve..." required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="cta-button" style="width: 100%; margin-top: 1rem;">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section" style="padding: 8rem 0;">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>Frequently Asked <span style="color: var(--accent-color);">Questions</span></h2>
+                    <p>Got questions? We've got answers that don't suck.</p>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card fade-in">
+                        <h3 style="color: var(--accent-color);">How long does a typical project take?</h3>
+                        <p>It depends on complexity, but most projects range from 4-16 weeks. We'll give you a realistic timeline during our discovery phase—no bullsh*t estimates.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h3 style="color: var(--accent-color);">Do you work with startups?</h3>
+                        <p>Absolutely! We love working with startups that have big dreams and aren't afraid to think differently. We offer flexible payment options for qualified startups.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h3 style="color: var(--accent-color);">What's included in your packages?</h3>
+                        <p>Everything needed to dominate: design, development, testing, deployment, and ongoing support. No hidden fees, no surprise charges.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h3 style="color: var(--accent-color);">Can you handle complex integrations?</h3>
+                        <p>We thrive on complex challenges. APIs, databases, third-party services, legacy systems—if it can be integrated, we'll make it work seamlessly.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h3 style="color: var(--accent-color);">Do you provide ongoing support?</h3>
+                        <p>Hell yes! We offer different support packages, from basic maintenance to full-service ongoing development. Your success is our obsession.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h3 style="color: var(--accent-color);">What makes you different?</h3>
+                        <p>We don't just build websites—we create digital experiences that convert. Our 3D expertise and performance obsession set us apart from everyone else.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Preview -->
+        <section class="process-preview" style="padding: 8rem 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="section-title fade-in">
+                    <h2>What Happens <span style="color: var(--accent-color);">Next?</span></h2>
+                    <p>Our streamlined process from first contact to digital domination.</p>
+                </div>
+
+                <div class="grid grid-4">
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">1</div>
+                        <h3>Initial Call</h3>
+                        <p>We schedule a discovery call within 24 hours to understand your vision and goals.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">2</div>
+                        <h3>Proposal</h3>
+                        <p>We create a detailed proposal with timeline, scope, and investment within 48 hours.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">3</div>
+                        <h3>Kickoff</h3>
+                        <p>Once approved, we start with in-depth discovery and begin creating your digital masterpiece.</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <div style="background: var(--accent-color); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: bold; color: white; font-size: 1.5rem;">4</div>
+                        <h3>Launch</h3>
+                        <p>We launch your project and monitor performance, ensuring everything exceeds expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Creative<span style="color: var(--accent-color);">Studio</span></h3>
+                    <p>Creating digital experiences that dominate. We turn vision into obsession and clicks into cash.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">📧</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">💼</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">🐦</a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.2rem;">📸</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="./services.html">Web Development</a><br>
+                    <a href="./services.html">UI/UX Design</a><br>
+                    <a href="./services.html">App Development</a><br>
+                    <a href="./services.html">3D Experiences</a><br>
+                    <a href="./services.html">Consulting</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="./about.html">About Us</a><br>
+                    <a href="./careers.html">Careers</a><br>
+                    <a href="./blog.html">Blog</a><br>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📧 hello@creativestudio.com</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>📍 New York, NY, USA</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Creative Studio. All rights reserved. Built with passion and 3D magic.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Contact form handling
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic form validation and submission logic
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Here you would typically send the data to your backend
+            console.log('Form submitted:', data);
+            
+            // Show success message
+            alert('Thank you for your message! We\'ll get back to you within 24 hours.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
